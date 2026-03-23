@@ -5,7 +5,7 @@
 - Lugar: UNIVERSIDAD NACIONAL DE INGENIERIA
 - Horario: Lunes de 10:00 a 14:00 Horas
 - Inicio: 23-MAR-2026
-- Aula: 
+- Aula: S1-229
 - Portal web: https://www.fiis.uni.edu.pe/
 - Dirección: https://goo.gl/maps/SGR2RiuPjonfqSM87
 
