@@ -1,0 +1,7 @@
+Universidad Nacional de Ingenieria
+Curso de Programacion
+Profesor: Gustavo Coronel
+
+
+Alumno 1: Juan Perez - 20
+Alumno 2: Ana Contreras - 18

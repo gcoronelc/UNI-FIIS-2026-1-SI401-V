@@ -1,0 +1,10 @@
+Ciclo: 2026-1
+Profesor: Gustavo Coronel
+
+Juan Pérez|20
+Juana Rios|10
+Marco Torres|5
+Alicia Alarcon|15
+Angel Ruiz|8
+Sofia Alcantara|14
+
