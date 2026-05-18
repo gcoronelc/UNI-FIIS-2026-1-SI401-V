@@ -42,14 +42,19 @@ void procesar(string nombre){
     vector<string> arreglo;
     int suma = 0;
     int cont = 0;
+    int t;
 
     archivo.open(nombre);
-
+	mayor = 0;
+	menor = 20;
     while(getline(archivo, linea)){
     	if(linea.find(simbolo) == string::npos) continue;
     	cont++;
         arreglo = split(linea, simbolo);
-        suma = suma + stoi(arreglo[1]);
+        t = stoi(arreglo[1]);
+        suma = suma + t;
+        if(t < menor) menor = t;
+        if(t > mayor) mayor = t;
     }
 
     archivo.close();
@@ -57,19 +62,28 @@ void procesar(string nombre){
 	promedio = suma / cont;
 }
 
+void agregarResumen(string nombre){
+	ofstream archivo;
+    archivo.open(nombre, ios::app);
+	archivo << endl;
+	archivo << "RESUMEN" << endl;
+    archivo << "Nota promedio: " << promedio<< endl;
+    archivo << "Nota mayor: " << mayor << endl;
+    archivo << "Nota menor: " << menor << endl;
 
+    archivo.close();
+}
 
 int main(){
 
     string nombre = "LP.txt";
 	
 	procesar(nombre);
+	agregarResumen(nombre);
 	
-	if(!existe){
-		cout << "Archivo no existe!!\n";
-		return -1;
-	}
 	
 	cout << "Promedio: " << promedio << endl;
+	cout << "Mayor: " << mayor << endl;
+	cout << "Menor: " << menor << endl;
     return 0;
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    ifstream archivo("datosx.txt");
+    ifstream archivo("datos.txt");
 
     if(!archivo){
         cout << "No se pudo abrir el archivo";

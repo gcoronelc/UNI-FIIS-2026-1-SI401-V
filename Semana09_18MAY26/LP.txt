@@ -8,3 +8,12 @@ Alicia Alarcon|15
 Angel Ruiz|8
 Sofia Alcantara|14
 
+RESUMEN
+Nota promedio: 12
+Nota mayor: 20
+Nota menor: 5
+
+RESUMEN
+Nota promedio: 12
+Nota mayor: 20
+Nota menor: 5
