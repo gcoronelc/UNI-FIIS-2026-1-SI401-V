@@ -1,7 +1,7 @@
 Ciclo: 2026-1
 Profesor: Gustavo Coronel
 
-Juan Pérez|20
+Juan Perez|20
 Juana Rios|10
 Marco Torres|5
 Alicia Alarcon|15
